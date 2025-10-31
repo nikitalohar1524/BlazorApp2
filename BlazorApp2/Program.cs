@@ -8,6 +8,7 @@ builder.Services.AddRazorComponents()
 
 var app = builder.Build();
 Console.WriteLine("Hello from BlazorApp2!");
+Console.WriteLine("more modifications");
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
